@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+#layout {
+shape-rendering: crispEdges;
+}
+
+.cell {
+  cursor: pointer;
+}
+
+#tooltip {
+  color: white;
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 3;
+  padding: 5px;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  border: 0px;		
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+#legend {
+  cursor: default;
+}
+
+#footer {
+  margin-top: 50px;
+}
